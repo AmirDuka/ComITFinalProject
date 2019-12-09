@@ -1,0 +1,74 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title Athletes Matcher
+  link(href='https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous')
+  link(rel='stylesheet' href='styles.css')
+body
+.top-can.row
+  .div-1.col-lg-4
+    h1.h1-1 Athletes Matcher
+  .div-2.col-lg-2
+    p.p-1
+      a(name='important')
+      | Have an account?
+      br
+      | Signin here
+  .div-3.col-lg-5
+    form.for-3(action='login.html' method='get' enctype='application/x-www-form-urlencoded')
+      br
+      .div-4
+        | Email
+        br
+        input(type='email' name='Email' placeholder='Email' size='25' maxlength='12')
+      .div-5
+        | Password
+        br
+        input(type='password' name='password' placeholder='password' size='25' maxlength='8')
+      .div-6
+        button.btn-block.registerbtn.btn.btn-outline-light(type='Log In') Log In
+.bottom-can
+  .left-can
+    .big-title
+      h1.h1-2 Get in touch with huge number of athletes and the world around you
+    //
+      <div>
+      <ul class="ul-1">
+      <li>See latest news about health and activities</li>
+      <li>See Photos and Updates</li>
+      <li>find athletes and hangout for a match</li>
+      </ul>
+      </div>
+  .right-can
+    .registration-form
+      form(action='action_page.php')
+        .can
+          h3
+            | Register
+            p.p-3 Please fill in this form to create an account.
+            hr.hr-1
+            .middle-form
+              label.mail-text(for='email')
+                b Email
+              br
+              input.mail-box(type='text' placeholder='Enter Email' name='email' required='')
+              br
+              label.pass-text(for='psw')
+                b Password
+              br
+              input.pass-box(type='password' placeholder='Enter Password' name='psw' required='')
+              br
+              label.rep-pass-text(for='psw-repeat')
+                b Repeat Password
+              br
+              input.rep-pass-box(type='password' placeholder='Repeat Password' name='psw-repeat' required='')
+              hr
+            p.p-4
+              | By creating an account you agree to our 
+              a(href='#') Terms &amp; Privacy
+              | .
+            button.w-100.registerbtn.btn.btn-outline-light.btn-lg(style=' width:200px' type='submit') Register
+footer

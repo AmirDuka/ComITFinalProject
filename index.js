@@ -7,6 +7,7 @@ app.set('view engine', 'pug');
 
 app.use(express.static("public"));
 
+// to render pug file
 app.get('', (req, res) => {
     res.render('index',{});
 })
