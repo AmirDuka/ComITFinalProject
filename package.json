@@ -1,0 +1,20 @@
+{
+  "name": "comitfinalproject",
+  "version": "1.0.0",
+  "description": "This is my first official Project.\r  This Website and associated mobile app is going to connect athletes to each other.\r  Players will be able to find playmates to play with.\r  They will be able to set a time to meet at the sport location and play with together.\r  the owners will be able to post their schedule and update it on demand so that users can see the empty spots available.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirDuka/ComITFinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirDuka/ComITFinalProject/issues"
+  },
+  "homepage": "https://github.com/AmirDuka/ComITFinalProject#readme"
+}

@@ -1,0 +1,166 @@
+body {
+    background-image: url("sports.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-can {
+    width: 100%;
+}
+.bottom-can {
+    width: 100%;
+}
+.h1-1 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: #dbcf93;
+    padding-top: 40px;
+
+}
+.h1-2 {
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    font-size: 3rem;
+    color: #dbcf93;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.div-1 {
+    display: inline-block;
+    margin-left: 20px;
+    width: 30%;
+}
+.div-2 {
+    display: inline-block;
+    text-align: right;
+    margin-right: 30px;
+    width: 25%;
+
+}
+
+.div-4 {
+    display: inline-block;
+    color: #dbcf93;
+}
+.div-5 {
+    display: inline-block;
+    color: #dbcf93;
+}
+.div-6 {
+    display: inline-block;
+    position: relative;
+}
+
+.div-8 {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+.div-9 {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+.p-1 {
+    color: #dbcf93;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.p-2 {
+    text-decoration: none;
+    margin-top: 5%;
+    text-align: center;
+}
+.p-3 {
+    font-size: smaller;
+    line-height: 0.75rem;
+    padding: 0;
+    margin: 0;
+}
+.p-4 {
+    font-size: smaller;
+    line-height: 0.75rem;
+    padding: 0;
+    margin: 0;
+}
+
+.ul-1 {
+    text-align: left;
+    padding-top: 20px;
+    width: 65%;
+    margin: auto;
+    color: #dbcf93;
+    font-size: 1.5rem;
+
+
+}
+
+.right-can {
+    width: 49%;
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateY(-50%);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.registration-form {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(50, 50, 50, 0.5) !important;
+    color: #dbcf93;
+    border-radius: 3%;
+    
+}
+
+.middle-form {
+    text-align: left;
+    padding-left: 40px;
+}
+.big-title {
+padding: 5% 0 15%;
+}
+
+.left-can {
+    width: 49%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%);
+}
+.hr-1 {
+    margin: 0;
+}
+
+
+/* .btn-block {
+    padding: 50% 0; 
+} */
+
+.for-3 {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.mail-box {
+    width: 80%;
+}
+
+.pass-box {
+    width: 80%;
+}
+
+.rep-pass-box {
+    width: 80%;
+}
