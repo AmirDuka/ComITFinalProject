@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AmirDuka/ComITFinalProject/issues"
   },
-  "homepage": "https://github.com/AmirDuka/ComITFinalProject#readme"
+  "homepage": "https://github.com/AmirDuka/ComITFinalProject#readme",
+  "dependencies": {
+    "pug": "^2.0.4"
+  }
 }
